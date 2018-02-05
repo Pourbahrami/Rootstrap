@@ -1,0 +1,36 @@
+{
+  "bugs": {
+    "url": "https://github.com/pourbahrami/rootstrap/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Rootstrap is a Sass port for RTL version of Bootstrap 3",
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "^0.7.1"
+  },
+  "files": [
+    "assets",
+    "dist",
+    "eyeglass-exports.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/Pourbahrami/Rootstrap#readme",
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "eyeglass-module",
+    "rtl"
+  ],
+  "license": "MIT",
+  "name": "rootstrap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pourbahrami/Rootstrap.git"
+  },
+  "scss": "assets/scss/_rootstrap.scss",
+  "version": "1.0.0",
+  "author": "Hossein Pourbahrami"
+}
