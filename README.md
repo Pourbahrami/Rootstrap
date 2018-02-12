@@ -19,7 +19,7 @@
 Link directly to Rootstrap CSS on [unpkg](https://unpkg.com/).
 
 ``` html
-<link href="https://unpkg.com/rootstrap@1.0.0/dist/css/rootstrap.min.css" rel="stylesheet">
+<link href="https://unpkg.com/rootstrap/dist/css/rootstrap.min.css" rel="stylesheet">
 ```
 
 ### Package Managers
