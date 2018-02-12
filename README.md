@@ -10,18 +10,31 @@
   Rootstrap is a Sass port for RTL version of <a href="https://github.com/twbs/bootstrap">Bootstrap 3</a>
 </p>
 
-
 <br>
 
 ## Installation
 
-```console
+### CDN
+
+Link directly to Rootstrap CSS on [unpkg](https://unpkg.com/).
+
+``` html
+<link href="https://unpkg.com/rootstrap@1.0.0/dist/css/rootstrap.min.css" rel="stylesheet">
+```
+
+### Package Managers
+
+``` console
 $ npm install rootstrap
 ```
 
-## Use in Laravel
+## Usage
 
 ```scss
 // Bootstrap
 @import "~rootstrap/assets/scss/rootstrap";
 ```
+
+## Examples
+
+* [Rootstrap Carousel](https://codepen.io/pourbahrami/pen/MQmPWb)

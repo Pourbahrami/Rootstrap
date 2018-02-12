@@ -31,22 +31,23 @@
       @include backface-visibility(hidden);
       @include perspective(1000px);
 
-      &.next,
+      &.prev,
       &.active.left {
         @include translate3d(100%, 0, 0);
         right: 0;
       }
-      &.prev,
+      &.next,
       &.active.right {
         @include translate3d(-100%, 0, 0);
         right: 0;
       }
-      &.next.right,
-      &.prev.left,
+      &.prev.right,
+      &.next.left,
       &.active {
         @include translate3d(0, 0, 0);
         right: 0;
       }
+
     }
   }
 
