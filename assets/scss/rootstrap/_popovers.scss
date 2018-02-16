@@ -6,7 +6,7 @@
 .popover {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: $zindex-popover;
   display: none;
   max-width: $popover-max-width;
@@ -25,9 +25,9 @@
 
   // Offset the popover to account for the popover arrow
   &.top     { margin-top: -$popover-arrow-width; }
-  &.left   { margin-right: $popover-arrow-width; }
+  &.left   { margin-left: -$popover-arrow-width; }
   &.bottom  { margin-top: $popover-arrow-width; }
-  &.right    { margin-right: -$popover-arrow-width; }
+  &.right    { margin-left: $popover-arrow-width; }
 }
 
 .popover-title {

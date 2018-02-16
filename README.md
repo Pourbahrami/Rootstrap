@@ -31,10 +31,16 @@ $ npm install rootstrap
 ## Usage
 
 ```scss
-// Bootstrap
+// Rootstrap
 @import "~rootstrap/assets/scss/rootstrap";
 ```
 
 ## Examples
 
 * [Rootstrap Carousel](https://codepen.io/pourbahrami/pen/MQmPWb)
+* [Rootstrap Tooltip](https://codepen.io/pourbahrami/pen/bLYBbM)
+* [Rootstrap Popovers](https://codepen.io/pourbahrami/pen/qxpErv)
+
+## Issues
+
+Feel free to submit issues and enhancement requests.
